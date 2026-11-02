@@ -15,7 +15,7 @@ I trade futures on prop-firm evaluation accounts, where you have to reach a prof
 
 ![System diagram](System_Diagram.png)
 
-Full feature breakdown: [Eisenhower_Matrix.pdf](Eisenhower_Matrix.pdf)
+Matrix: [Eisenhower_Matrix.pdf](Eisenhower_Matrix.pdf)
 
 ## Tech Stack
 
