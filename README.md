@@ -23,7 +23,7 @@ Matrix: [Eisenhower_Matrix.pdf](Eisenhower_Matrix.pdf)
 - **Libraries:** Java standard library only (`Random`, `Arrays`)
 - **Data:** none stored. The inputs come from the command line, and results print to the terminal
 
-- ## Future Plans
+## Future Plans
 
 - [ ] Daily loss limit and consistency rules
 - [ ] Presets for common account types
