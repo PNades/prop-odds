@@ -13,7 +13,9 @@ I trade futures on prop-firm evaluation accounts, where you have to reach a prof
 - Stop each path at the profit target (pass), the end-of-day trailing drawdown (failed) or 30 days (timeout)
 - Run 10,000 paths and print pass%, fail%, timeout% and median days to pass
 
+
 ![System diagram](System_Diagram.png)
+
 
 Matrix: [Eisenhower_Matrix.pdf](Eisenhower_Matrix.pdf)
 
