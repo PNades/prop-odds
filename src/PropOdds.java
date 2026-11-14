@@ -30,18 +30,19 @@ public class PropOdds {
 		}
 
 		if (winRate <= 0 || winRate >= 1) {
-            		System.out.println("Error: winRate must be between 0 and 1.");
-            		return;
-        	}
-        	if (avgWin <= 0 || avgLoss <= 0 || tradesPerDay <= 0 || profitTarget <= 0 || drawdown <= 0) {
-            		System.out.println("Error: avgWin, avgLoss, tradesPerDay, profitTarget and drawdown must be positive.");
-            		return;
-        	}
+            System.out.println("Error: winRate must be between 0 and 1.");
+            return;
+        }
+        if (avgWin <= 0 || avgLoss <= 0 || tradesPerDay <= 0 || profitTarget <= 0 || drawdown <= 0) {
+            System.out.println("Error: avgWin, avgLoss, tradesPerDay, profitTarget and drawdown must be positive.");
+            return;
+        }
+		
 		System.out.println("Win rate:       " + winRate);
-        	System.out.println("Average win:    $" + avgWin);
-        	System.out.println("Average loss:   $" + avgLoss);
-        	System.out.println("Trades per day: " + tradesPerDay);
-        	System.out.println("Profit target:  $" + profitTarget);
-        	System.out.println("Drawdown:       $" + drawdown);
+        System.out.println("Average win:    $" + avgWin);
+        System.out.println("Average loss:   $" + avgLoss);
+        System.out.println("Trades per day: " + tradesPerDay);
+        System.out.println("Profit target:  $" + profitTarget);
+        System.out.println("Drawdown:       $" + drawdown);
 	}
 }
